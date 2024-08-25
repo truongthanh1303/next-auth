@@ -1,7 +1,6 @@
 function AuthLayout({children}: {children: React.ReactNode}) {
   return (
-    <div>
-      <nav className="bg-blue-400 text-white">The Auth Navbar</nav>
+    <div className="h-full flex items-center justify-center bg-gradient-to-b from-sky-400 to-blue-800">
       {children}
     </div>
   );
