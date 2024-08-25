@@ -43,7 +43,7 @@ function CardWrapper({
 
       <CardFooter>
         <BackButton
-          href="/auth/register"
+          href={backButtonHref}
           label={backButtonLabel}
         />
       </CardFooter>
